@@ -1,0 +1,39 @@
+header {
+    background-color: rgb(87, 179, 26);
+    padding: 28mpx;
+    text-align: center;
+}
+#info-personal, #Habilidades {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #080402; 
+}
+#info-personal h2, #Habilidades h2 #Contacto h2 {
+    font-size: 24px;
+}
+#Habilidades ul {
+    list-style-type: square;
+
+}
+#Contacto {
+    font-size: 20px;
+    border: 5px solid crimson;
+}
+
+
+footer {
+    background-color: #a1a1a7;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    body
+    font-size: 16px;
+}
+header # info-personal,#Habilidades  {
+    padding: 30px;
+}
